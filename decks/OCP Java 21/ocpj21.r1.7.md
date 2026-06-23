@@ -1,0 +1,44 @@
+---
+type: mcq
+uuid:
+---
+
+# query
+Which are true about this code?  
+Choose all that apply.
+
+```
+public class KichenSink {
+    private int numForks;
+    
+    public static void main(String[] args) {
+        int numKnives;
+        System.out.print( """
+        "# forks = " + numForks + 
+         " # knives = " + numKnives + 
+         # cups = 0 """);
+    } 
+} 
+```
+
+## A
+The output includes `# forks = 0`.
+
+## B
+The output includes `# knives = 0`.
+
+## C
+The output includes `# cups = 0`.
+
+## D
+The output includes a blank line.
+
+## E
+The output includes one or more lines that begin with whitespace.
+
+## F
+The code does not compile.
+
+# answer
+## C
+## E
