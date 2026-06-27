@@ -7,3 +7,4 @@ https://github.com/gatomek/project-flashcard-data
 https://gatomek.github.io/project-flashcards-frontend/
 
 ## Tools
+https://www.uuidgenerator.net/
