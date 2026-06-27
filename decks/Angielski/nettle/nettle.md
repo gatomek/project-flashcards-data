@@ -7,4 +7,4 @@ uuid: 67d623c4-3f2c-4c79-8d46-1744c7fc018f
 pokrzywa
 
 # answer
-nettle [neloł]
+nettle [ ˈne-tᵊl | neloł ]
