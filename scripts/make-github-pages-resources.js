@@ -30,17 +30,23 @@ async function scanFolder(p) {
     return content;
 }
 
-async function prepareResourceForGitHubPages(rootFolder) {
+async function makeManifestFile(rootFolder) {
+    const folders = await scanFolder(rootFolder);
+    writeFileSync(path.join(rootFolder, "manifest.json"), JSON.stringify(folders, null, 2), 'utf8');
+}
+
+async function makeGitHubPagesResources(rootFolder) {
     try {
         rmSync(rootFolder, {recursive: true, force: true});
         copySync("./decks", rootFolder);
-        const folders = await scanFolder(rootFolder);
-        writeFileSync(path.join(rootFolder, "manifest.json"), JSON.stringify(folders, null, 2), 'utf8');
+        await makeManifestFile(rootFolder);
 
         console.log('OK');
     } catch (err) {
         console.error('Error', err);
+        process.exitCode = 1;
+        throw err;
     }
 }
 
-await prepareResourceForGitHubPages("./dist");
+await makeGitHubPagesResources("./dist");

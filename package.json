@@ -10,7 +10,7 @@
   "author": "gatomek",
   "type": "module",
   "scripts": {
-    "build-manifest": "node scripts/build-manifest.js"
+    "make-github-pages-resources": "node scripts/make-github-pages-resources.js"
   },
   "dependencies": {
     "fs-extra": "^11.3.5"
