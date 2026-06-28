@@ -5,7 +5,7 @@ uuid: 4b3b8bde-19d2-4cc5-a037-3c94d5d6c88c
 
 # query
 **R1.10.**
-Which of the following expressions, when inserted indepedently into the blank line, allow the code to compile?  
+Which of the following expressions, when inserted independently into the blank line, allow the code to compile?  
 Choose all that apply.
 
 ```
