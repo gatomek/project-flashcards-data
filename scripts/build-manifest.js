@@ -1,7 +1,8 @@
-import {lstatSync, opendirSync, writeFileSync} from "node:fs";
+import {lstatSync, rmSync, opendirSync, writeFileSync} from "node:fs";
 import {copySync} from "fs-extra/esm";
-import path from "node:path"
+import path from "node:path";
 
+rmSync("./dist", { recursive: true, force: true });
 copySync("./decks", "./dist");
 
 const folders = [];
@@ -16,7 +17,7 @@ for await (const deck of decks) {
 
     const flashcards = opendirSync(deckPath);
     const fcs = [];
-    for await(const fc of flashcards) {
+    for await (const fc of flashcards) {
         const flashcardPath = path.join(deckPath, fc.name)
 
         const stat = lstatSync(flashcardPath);
@@ -24,7 +25,7 @@ for await (const deck of decks) {
         if (isDirectory) {
             const content = opendirSync(flashcardPath);
             const contentFiles = [];
-            for await(const c of content) {
+            for await (const c of content) {
                 contentFiles.push({
                     type: 'file',
                     name: c.name

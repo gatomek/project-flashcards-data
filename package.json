@@ -9,7 +9,6 @@
   "license": "MIT",
   "author": "gatomek",
   "type": "module",
-  "main": "index.js",
   "scripts": {
     "build-manifest": "node scripts/build-manifest.js"
   },
