@@ -8,8 +8,8 @@ uuid: 4653e26b-dbb0-400c-9db3-9b8bdf04e6c1
 What change, when applied independently, would allow the following code snippet to compile?  
 Choose all that apply.
 ```
-long ear = 10;
-int hearing = 2 * ear;
+3: long ear = 10;
+4: int hearing = 2 * ear;
 ```
 
 ## A
