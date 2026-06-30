@@ -4,6 +4,7 @@ uuid: 761b1b76-9fe1-4739-aca3-cb566df74d9c
 ---
 
 # query
+
 **R1.11.**
 Given the following two class files, what is the maximum number of imports that can be removed
 and have the code still compile?
@@ -26,22 +27,29 @@ public class Tank {
 ```
 
 ## A
+
 0
 
 ## B
+
 1
 
 ## C
+
 2
 
 ## D
+
 3
 
 ## E
+
 4
 
 ## F
+
 Does not compile
 
 # answer
+
 ## E

@@ -4,6 +4,7 @@ uuid: ba7ef10d-aa3f-4888-b511-f10ac486c54d
 ---
 
 # query
+
 **R2.07.**
 What is the output of the following code snippet?
 
@@ -16,28 +17,37 @@ System.out.println(clear + "-" + safe + "-" + tasty);
 ```
 
 ## A
+
 `true-true-true`
 
 ## B
+
 `true-true-false`
 
 ## C
+
 `true-false-true`
 
 ## D
+
 `true-false-false`
 
 ## E
+
 `false-true-true`
 
 ## F
+
 `false-true-false`
 
 ## G
+
 `false-false-true`
 
 ## H
+
 `false-false-false`
 
 # answer
+
 ## D

@@ -4,10 +4,12 @@ uuid: 76b15271-cc02-4c26-b654-a97c7f324231
 ---
 
 # query
-(Java)
+
+(Java)  
 złożone przypisanie  
-złożony operator  
+złożony operator
 
 # answer
+
 compound assignment  
-compound operator  
+compound operator

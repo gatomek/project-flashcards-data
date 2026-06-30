@@ -4,11 +4,12 @@ uuid:
 ---
 
 # query
+
 **R1.06.**
 Assuming the following class compiles, how many variables defined in the class or method are in scope on the line marked on line 14?
 
 ```
- 1: public class Camel { 
+ 1: public class Camel {
  2:     { int hairs = 3_000_0; }
  3:     long water, air = 2;
  4:     boolean twoHumps = true;
@@ -24,30 +25,37 @@ Assuming the following class compiles, how many variables defined in the class o
 14.             // SCOPE
 15.         }
 16.     }
-17. } 
+17. }
 ```
 
 ## A
+
 2
 
 ## B
+
 3
 
 ## C
+
 4
 
 ## D
+
 5
 
 ## E
+
 6
 
 ## F
+
 7
 
 ## G
+
 None of the above.
 
-
 # answer
+
 ## F

@@ -4,13 +4,14 @@ uuid: b05fc90e-89fd-419c-ab02-9324e4a29e5b
 ---
 
 # query
+
 **R1.12.**
 Which statements about the following class are correct?  
 Choose all that apply.
 
 ```
-1: public class ClownFish { 
-2:     int gills = 0, double weight=2; 
+1: public class ClownFish {
+2:     int gills = 0, double weight=2;
 3:     { int fins = gills; }
 4:     void print(int length = 3) {
 5:         System.out.println(gills);
@@ -21,30 +22,41 @@ Choose all that apply.
 ```
 
 ## A
+
 Line `2` generates a compiler error.
 
 ## B
+
 Line `3` generates a compiler error.
 
 ## C
+
 Line `4` generates a compiler error.
 
 ## D
+
 Line `7` generates a compiler error.
 
 ## E
+
 The code prints `0`.
 
 ## F
+
 The code prints `2.0`.
 
 ## G
+
 The code prints `2`.
 
 ## H
+
 The code prints `3`.
 
 # answer
+
 ## A
+
 ## C
+
 ## D

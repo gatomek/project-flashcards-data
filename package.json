@@ -1,18 +1,23 @@
 {
-  "name": "project-flashcards-data",
-  "version": "1.0.0",
-  "description": "https://github.com/gatomek/project-flashcards-data",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gatomek/project-flashcards-data.git"
-  },
-  "license": "MIT",
-  "author": "gatomek",
-  "type": "module",
-  "scripts": {
-    "make-github-pages-resources": "node scripts/make-github-pages-resources.js"
-  },
-  "dependencies": {
-    "fs-extra": "^11.3.5"
-  }
+    "name": "project-flashcards-data",
+    "version": "1.0.0",
+    "description": "https://github.com/gatomek/project-flashcards-data",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gatomek/project-flashcards-data.git"
+    },
+    "license": "MIT",
+    "author": "gatomek",
+    "type": "module",
+    "scripts": {
+        "make-github-pages-resources": "node scripts/make-github-pages-resources.js",
+        "format:check": "prettier . --check",
+        "format:fix": "prettier . --write"
+    },
+    "dependencies": {
+        "fs-extra": "^11.3.5"
+    },
+    "devDependencies": {
+        "prettier": "^3.9.4"
+    }
 }

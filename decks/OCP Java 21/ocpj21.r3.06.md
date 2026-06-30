@@ -4,6 +4,7 @@ uuid: 3041965c-88d0-42f7-a2ea-42e6828a73ff
 ---
 
 # query
+
 **R3.06.**
 What is the output of the following code snippet?
 
@@ -26,28 +27,37 @@ for(Object c : myFavoriteNumbers)
 ```
 
 ## A
+
 It compiles and runs without issue but does not produce any output.
 
 ## B
+
 `10, 14,`
 
 ## C
+
 `10, 10, 14,`
 
 ## D
+
 `10, 10, 14, 10, 14,`
 
 ## E
+
 Exactly one line of code does not compile.
 
 ## F
+
 Exactly two lines of code do not compile.
 
 ## G
+
 Three or more lines of code do not compile.
 
 ## H
+
 The code contains an infinite loop and does not terminate.
 
 # answer
+
 ## E

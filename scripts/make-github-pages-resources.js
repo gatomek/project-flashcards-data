@@ -1,9 +1,9 @@
-import {opendirSync, rmSync, writeFileSync} from "node:fs";
-import {copySync} from "fs-extra/esm";
-import path from "node:path";
+import {opendirSync, rmSync, writeFileSync} from 'node:fs';
+import {copySync} from 'fs-extra/esm';
+import path from 'node:path';
 
 async function scanFolder(p) {
-    const content = []
+    const content = [];
 
     const dir = opendirSync(p);
     for await (const item of dir) {
@@ -11,17 +11,15 @@ async function scanFolder(p) {
         const isDirectory = item.isDirectory();
         if (isDirectory) {
             content.push({
-                    type: 'dir',
-                    name: item.name,
-                    content: await scanFolder(subPath)
-                }
-            );
+                type: 'dir',
+                name: item.name,
+                content: await scanFolder(subPath)
+            });
         } else {
             content.push({
-                    type: 'file',
-                    name: item.name
-                }
-            );
+                type: 'file',
+                name: item.name
+            });
         }
     }
 
@@ -30,13 +28,13 @@ async function scanFolder(p) {
 
 async function makeManifestFile(rootFolder) {
     const folders = await scanFolder(rootFolder);
-    writeFileSync(path.join(rootFolder, "manifest.json"), JSON.stringify(folders, null, 2), 'utf8');
+    writeFileSync(path.join(rootFolder, 'manifest.json'), JSON.stringify(folders, null, 2), 'utf8');
 }
 
 async function makeGitHubPagesResources(rootFolder) {
     try {
         rmSync(rootFolder, {recursive: true, force: true});
-        copySync("./decks", rootFolder);
+        copySync('./decks', rootFolder);
         await makeManifestFile(rootFolder);
 
         console.log('OK');
@@ -47,4 +45,4 @@ async function makeGitHubPagesResources(rootFolder) {
     }
 }
 
-await makeGitHubPagesResources("./dist");
+await makeGitHubPagesResources('./dist');

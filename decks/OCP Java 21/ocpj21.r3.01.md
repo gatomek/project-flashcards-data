@@ -4,8 +4,10 @@ uuid: f662121a-cb7c-457e-9906-692bed3ff1be
 ---
 
 # query
+
 **R3.01.**
 What is the output of the following code snippet?
+
 ```
 32: Object skips = 10;
 33: switch (skips) {
@@ -17,25 +19,33 @@ What is the output of the following code snippet?
 ```
 
 ## A
+
 `2`
 
 ## B
+
 `4`
 
 ## C
+
 `6`
 
 ## D
+
 `8`
 
 ## E
+
 Exactly one line does not compile.
 
 ## F
+
 Exactly two lines do not compile.
 
 ## G
+
 None of the above.
 
 # answer
+
 ## F

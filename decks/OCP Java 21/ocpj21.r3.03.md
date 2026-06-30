@@ -4,8 +4,9 @@ uuid: 75f6bc22-bfa2-4490-8fca-8d449605f994
 ---
 
 # query
+
 **R3.03.**
-What is the output of the following code snippet?  
+What is the output of the following code snippet?
 
 ```
 3: int temperature = 4;
@@ -17,22 +18,29 @@ What is the output of the following code snippet?
 ```
 
 ## A
+
 `Too Low`
 
 ## B
+
 `Just Right`
 
 ## C
+
 `Too High`
 
 ## D
+
 A `NullPointerException` is thrown at runtime.
 
 ## E
+
 The code will not compile because of line 7.
 
 ## F
+
 The code will not compile because of line 8.
 
 # answer
+
 ## B

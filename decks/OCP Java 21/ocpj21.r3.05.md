@@ -4,6 +4,7 @@ uuid: 237768de-2391-4c62-8df4-b5fe8d8e96ac
 ---
 
 # query
+
 **R3.05.**
 What is the output of calling `printReptile(6)`?
 
@@ -20,22 +21,29 @@ void printReptile(int category) {
 ```
 
 ## A
+
 `Snake`
 
 ## B
+
 `Lizard`
 
 ## C
+
 `Turtle`
 
 ## D
+
 `Alligator`
 
 ## E
+
 `TurtleAlligator`
 
 ## F
+
 None of the above
 
 # answer
+
 ## F

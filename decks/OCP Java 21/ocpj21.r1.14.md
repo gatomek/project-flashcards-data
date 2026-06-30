@@ -4,6 +4,7 @@ uuid: fe97481b-51e8-4285-9570-922935dd0c6b
 ---
 
 # query
+
 **R1.14.**
 Which of the following statements about the code snippet are true?  
 Choose all that apply.
@@ -18,25 +19,35 @@ Choose all that apply.
 ```
 
 ## A
+
 Line `3` generates a compiler error.
 
 ## B
+
 Line `4` generates a compiler error.
 
 ## C
+
 Line `5` generates a compiler error.
 
 ## D
+
 Line `6` generates a compiler error.
 
 ## E
+
 Line `7` generates a compiler error.
 
 ## F
+
 Line `8` generates a compiler error.
 
 # answer
+
 ## A
+
 ## B
+
 ## D
+
 ## E

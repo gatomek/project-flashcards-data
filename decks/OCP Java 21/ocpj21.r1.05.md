@@ -4,6 +4,7 @@ uuid:
 ---
 
 # query
+
 **R1.05.**
 Which statements about the following program are correct?  
 Choose all that apply.
@@ -25,28 +26,37 @@ Choose all that apply.
 ```
 
 ## A
+
 The object created on line 9 is first eligible for garbage collection after line 13.
 
 ## B
+
 The object created on line 9 is first eligible for garbage collection after line 14.
 
 ## C
+
 The object created on line 10 is first eligible for garbage collection after line 12.
 
 ## D
+
 The object created on line 10 is first eligible for garbage collection after line 13.
 
 ## E
+
 Garbage collection is guaranteed to run.
 
 ## F
+
 Garbage collection might or might not run.
 
 ## G
+
 The code does not compile.
 
-
 # answer
+
 ## A
+
 ## D
+
 ## F

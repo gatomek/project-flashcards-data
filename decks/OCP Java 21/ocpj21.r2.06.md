@@ -4,8 +4,10 @@ uuid: fe5d74a7-5b09-4b6b-9c8e-ddc506439f96
 ---
 
 # query
+
 **R2.06.**
 What is the output of the following program?
+
 ```
 1: public class CandyCounter {
 2:     static long addCandy(double fruit, float vegetables) {
@@ -19,22 +21,29 @@ What is the output of the following program?
 ```
 
 ## A
+
 `4, 6, 6.0`
 
 ## B
+
 `3, 5, 6`
 
 ## C
+
 `3, 6, 6`
 
 ## D
+
 `4, 5, 6`
 
 ## E
+
 The code does not compile because of line `9`.
 
 ## F
+
 None of the above.
 
 # answer
+
 ## F
