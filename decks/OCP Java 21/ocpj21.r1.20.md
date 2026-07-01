@@ -21,7 +21,7 @@ Which statement about the following class is correct?
 10:         var q = new PoliceBox();
 11:         p.color = "green";
 12:         p.age = 1400;
-13:         p = q; 
+13:         p = q;
 14:         System.out.println("Q1="+q.color);
 15:         System.out.println("Q2="+q.age);
 16:         System.out.println("P1="+p.color);
