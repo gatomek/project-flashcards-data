@@ -8,7 +8,7 @@ uuid: b4181b3c-1bff-4366-9036-c8d84deb2c4b
 **R1.13.**
 Given the following classes, which of the following snippets can independently be inserted
 in place of INSERT IMPORTS HERE and have the code compile?  
-(Choose all that apply.)
+Choose all that apply.
 
 ```
 package aquarium;
