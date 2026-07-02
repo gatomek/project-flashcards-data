@@ -16,4 +16,4 @@ to designate sth. as ...
 ## Examples
 
 We designate it as a covered model.  
-(http://onet.pl)
+[Link](http://onet.pl)
