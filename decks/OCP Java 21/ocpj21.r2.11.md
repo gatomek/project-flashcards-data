@@ -6,7 +6,7 @@ uuid: dc279966-796c-4bc9-829f-55df06884430
 # query
 
 **R2.11.**
-What is the output of the following code ?
+What is the output of the following code?
 
 ```
 int sample1 = (2 * 4) % 3;
@@ -45,4 +45,4 @@ The code does not compile.
 
 # answer
 
-## D~~~~
+## D
