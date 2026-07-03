@@ -21,4 +21,3 @@ We designate it as a covered model.
 > Blockquote
 
 ---
-
