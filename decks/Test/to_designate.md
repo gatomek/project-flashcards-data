@@ -13,18 +13,18 @@ to designate sth. as ...
 
 # info
 
-## Examples
+## Examples  
 
-We designate it as a covered model.  
-[Link](http://onet.pl)
+We designate it as a covered model.    
+[Link](http://onet.pl)  
 
-## Blockquote does not work?
+## Blockquote does not work?  
 
-> Blockquote
+> Blockquote  
+  
+---  
 
----
-
-## Klasa Test
+## Klasa Test  
 
 ```java
 public class Test {
