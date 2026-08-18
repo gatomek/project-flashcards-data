@@ -9,10 +9,10 @@ Jakie są 4 cechy listy tworzonej za pomocą funkcji `List.of()`?
 
 # answer
 
-* Lista jest stała. Nie można jej modyfikować jej elementów (`UnsupportedOperationException`)
-* Nie może zawierać elemenentów `null` (`NullPointerException`)
-* Rozmiar jest stały
-* Kompaktowa (wygodna) metoda wywoływania w jednej linijce
+- Lista jest stała. Nie można jej modyfikować jej elementów (`UnsupportedOperationException`)
+- Nie może zawierać elemenentów `null` (`NullPointerException`)
+- Rozmiar jest stały
+- Kompaktowa (wygodna) metoda wywoływania w jednej linijce
 
 # info
 
