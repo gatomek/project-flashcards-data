@@ -9,4 +9,4 @@ przygoda z programowaniem
 
 # answer
 
-a foray [fo-rej] into programming 
+a foray [fo-rej] into programming
